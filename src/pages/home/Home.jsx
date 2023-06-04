@@ -1,8 +1,7 @@
 import React from "react";
-import "./home.scss";
 
 function Home() {
-    return <div>home</div>
+    return <div>Bienvenu sur la page home</div>
 }
 
 export default Home; 

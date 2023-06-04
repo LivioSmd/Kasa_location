@@ -1,8 +1,7 @@
 import React from "react";
-import "./accomodation.scss";
 
 function Accomodation() {
-    return <div>accomodation</div>
+    return <div>liste des hebergements</div>
 }
 
 export default Accomodation; 
