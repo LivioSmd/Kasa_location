@@ -1,8 +1,13 @@
 import React from "react";
 import "./Home.scss";
+import Banner1 from "../../components/Banner1/Banner1";
 
 function Home() {
-    return <div>Bienvenu sur la page home</div>
+    return (
+        <div>
+            <Banner1 />
+        </div>
+    )
 }
 
 export default Home; 

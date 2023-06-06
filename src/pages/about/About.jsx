@@ -1,8 +1,13 @@
 import React from "react";
 import "./About.scss";
+import Banner2 from "../../components/Banner2/Banner2";
 
 function About() {
-    return <div>about</div>
+    return (
+        <div>
+            <Banner2 />
+        </div>
+    )
 }
 
 export default About; 
