@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.scss";
+import "../../Styles/About.scss";
 import Banner2 from "../../components/Banner2/Banner2";
 
 function About() {

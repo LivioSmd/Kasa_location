@@ -1,5 +1,6 @@
 import React from 'react';
 import logements from '../../datas/logements.json'
+import '../../Styles/Card.scss'
 
 const Card = () => {
     return (
@@ -9,7 +10,7 @@ const Card = () => {
                     return (
                         <div key={logements.id}>
                             {logements.title},
-                            <img src={logements.cover} alt="une image de logement disponible" />
+                            <img className='img-card' src={logements.cover} alt="logement disponible" />
                         </div>
                     )
                 })

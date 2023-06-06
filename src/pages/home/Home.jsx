@@ -1,11 +1,13 @@
 import React from "react";
-import "./Home.scss";
+import "../../Styles/Home.scss";
 import Banner1 from "../../components/Banner1/Banner1";
+import Card from "../../components/Card/Card";
 
 function Home() {
     return (
         <div>
             <Banner1 />
+            <Card />
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Accomodation.scss";
+import "../../Styles/Accomodation.scss";
 
 function Accomodation() {
     return <div>liste des hebergements</div>
