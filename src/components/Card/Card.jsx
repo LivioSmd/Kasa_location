@@ -7,7 +7,7 @@ const Card = () => {
             {
                 logements && logements.map( logements => {
                     return (
-                        <div>
+                        <div key={logements.id}>
                             {logements.title},
                             <img src={logements.cover} alt="une image de logement disponible" />
                         </div>
