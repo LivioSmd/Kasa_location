@@ -1,4 +1,6 @@
 $cardShape : 340px;
+$space1 : 43px;
+$space2 : 56px;
 
 .card-logement { 
     display: grid;
@@ -7,8 +9,10 @@ $cardShape : 340px;
     ;
     width: 90%;
     justify-content: center;
-    margin-top: 43px;
-    padding-top: 56px;
+    margin-top: $space1;
+    margin-bottom: $space2;
+    padding-top: $space2;
+    padding-bottom: $space1;
     align-items: end;
     gap: 50px;
     justify-items: center;

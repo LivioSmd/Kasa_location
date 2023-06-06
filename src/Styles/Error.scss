@@ -1,1 +1,24 @@
+$textColor : #FF6060;
+$textFamily: Montserrat;
+$spaceText: 139px;
 
+.pageError {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textError {
+    font-family: $textFamily;
+    font-size: 288px;
+    font-weight: 700;
+    color: $textColor;
+    margin-bottom: $spaceText;
+}
+
+.pageError a {
+    color: $textColor;
+    font-family: $textFamily;
+    margin-bottom: $spaceText;
+    margin-top: $spaceText;
+}
