@@ -5,7 +5,7 @@ import Card from "../../components/Card/Card";
 
 function Home() {
     return (
-        <div>
+        <div className="home-page">
             <Banner1 />
             <Card />
         </div>

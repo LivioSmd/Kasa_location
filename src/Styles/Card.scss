@@ -1,7 +1,32 @@
-.card-logement { 
+$cardShape : 340px;
 
+.card-logement { 
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    background-color: #F6F6F6;
+    ;
+    width: 90%;
+    justify-content: center;
+    margin-top: 43px;
+    padding-top: 56px;
+    align-items: end;
+    gap: 50px;
+    justify-items: center;
+    border-radius: 25px;
 }
 
 .img-card {
-    width: 100%;
+    width: $cardShape;
+    height: $cardShape;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+h4 {
+    position: absolute;
+    color: #FFFFFF;
+    padding-top: 275px;
+    margin: 12px;
+    width: 239px;
 }
