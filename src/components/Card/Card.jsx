@@ -8,7 +8,7 @@ const Card = () => {
             {
                 logements && logements.map( logements => {
                     return (
-                        <div key={logements.id}>
+                        <div className='card-logement' key={logements.id}>
                             {logements.title},
                             <img className='img-card' src={logements.cover} alt="logement disponible" />
                         </div>
