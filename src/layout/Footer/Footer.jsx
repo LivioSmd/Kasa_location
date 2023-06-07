@@ -1,10 +1,12 @@
 import React from 'react';
-import FooterDesktop from './images/FooterDesktop.png'
+import LogoWhite from '../../datas/images/Logo/LogoWhite.png'
+import '../../Styles/Footer.scss'
 
 const Footer = () => {
     return (
-        <div>
-            <img src={FooterDesktop} alt="informations du footer" />
+        <div className='footerDiv'>
+            <img src={LogoWhite} className='logoFooter' alt="Logo Kasa" />
+            <h3>© 2020 Kasa. All rights reserved</h3>
         </div>
     );
 };

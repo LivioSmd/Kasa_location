@@ -1,12 +1,12 @@
 import React from 'react';
-import logoDesktop from './images/logoDesktop.png'
+import Logo from '../../datas/images/Logo/Logo.png'
 import NavBar from '../../components/NavBar/NavBar';
 import '../../Styles/Header.scss'
 
 const Header = () => {
     return (
         <div className='headerNav'>
-            <img src={logoDesktop} alt="logo Kasa" />
+            <img src={Logo} alt="logo Kasa" />
             <NavBar/>
         </div>
     );

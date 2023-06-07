@@ -1,5 +1,5 @@
 import React from 'react';
-import logements from '../../datas/logements.json'
+import logements from '../../datas/Logements/logements.json'
 import '../../Styles/Card.scss'
 import '../../Styles/App.scss'
 
