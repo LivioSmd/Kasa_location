@@ -5,18 +5,17 @@ import About from "./pages/about/About";
 import Error from "./pages/error/Error";
 
 function Router() {
+
     return (
         <div>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/Accomodation" element={<Accomodation />} />
-                <Route path="/About" element={<About />} />
+                <Route path="/About/" element={<About />} />
                 <Route path="/*" element={<Error />} />
+                <Route path="accomodation/:id" element={<Accomodation />} />
             </Routes>
         </div>
-    );
-
+        )
 }
-
 
 export default Router;

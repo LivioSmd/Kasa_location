@@ -1,4 +1,4 @@
-import Router from "./Router";
+import Routes from "./Router";
 import Header from "./layout/Header/Header";
 import Footer from "./layout/Footer/Footer";
 import '../src/Styles/App.scss'
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Router />
+      <Routes />
       <Footer />
     </div>
   );
