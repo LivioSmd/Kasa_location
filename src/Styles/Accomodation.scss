@@ -1,3 +1,31 @@
+body  {
+    width: 1440px;
+}
+
 h4 {
     color: green;
+}
+
+.container-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.Carousel {
+    height: 415px;
+    width: 1240px;
+}
+
+.img-carousel {
+    height: 415px;
+    width: 1240px;
+    border-radius: 25px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: cent;
+}
+
+.carousel .thumb {
+    display: none !important;
 }
