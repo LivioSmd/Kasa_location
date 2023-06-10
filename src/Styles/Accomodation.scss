@@ -1,9 +1,7 @@
+
+
 body  {
     width: 1440px;
-}
-
-h4 {
-    color: green;
 }
 
 .container-carousel {
@@ -23,9 +21,55 @@ h4 {
     object-fit: cover;
     display: flex;
     justify-content: center;
-    align-items: cent;
+    align-items: center;
 }
 
 .carousel .thumb {
     display: none !important;
+}
+
+.carousel .carousel-status {
+    bottom: 0 !important;
+    top: auto !important;
+    right: 604px !important;
+    font-family: Montserrat;
+    font-size: 18px !important;
+}
+
+
+.infos-container {
+    margin: auto;
+    width: 1240px;
+}
+
+.titl-name-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.titl-name-img h2{
+    display: flex;
+    align-items: center;
+}
+
+.name-img {
+    display: flex;
+    gap: 10px;
+}
+
+.name-img img {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+
+.name-img h4 {
+    position: unset;
+    padding-top: 0;
+    margin: 0;
+    width: 77px;
+    color: #FF6060;
+    display: flex;
+    align-items: center;
 }

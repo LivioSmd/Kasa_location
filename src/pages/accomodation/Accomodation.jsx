@@ -9,18 +9,22 @@ function Affiche({ logement }) {
 
   return <>
         <div className="container-carousel">
-            <Carousel className="Carousel" infiniteLoop>
-            {logement.pictures.map((img, index) => {
-                return <img src={img} className="img-carousel" key={index} alt="slider du logement disponible" />
-            })}
+            <Carousel className="Carousel" infiniteLoop showIndicators={false}>
+                {logement.pictures.map((img, index) => {
+                    return <img src={img} className="img-carousel" key={index} alt="slider du logement disponible" />
+                })}
+
             </Carousel>
         </div>
-        <div>
-            <img src={logement.pictures} alt="" />
-            <h4>{logement.title}</h4>
-            <h4>{logement.host.name}</h4>
-            <img src={logement.host.picture} alt="" />
-            <h4>{logement.location}</h4>
+        <div className="infos-container">
+            <div className="titl-name-img">
+                <h2>{logement.title}</h2>
+                <div className="name-img"> 
+                    <h4>{logement.host.name}</h4>
+                    <img src={logement.host.picture} alt={logement.host.name}/>
+                </div>
+            </div>
+            <p>{logement.location}</p>
             <p>{logement.tags}</p>
             <p>{logement.rating}</p>
             <h2>{logement.description}</h2>
