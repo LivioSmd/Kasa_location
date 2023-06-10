@@ -2,7 +2,7 @@ import "../../Styles/Collapse.scss"
 import { useCollapse } from "react-collapsed"; 
 
 
-function Collapse({desc}) {
+function CollapseDesc({desc}) {
     const { getCollapseProps, getToggleProps} = useCollapse();
 return (
     <div className="collapsible">
@@ -18,5 +18,5 @@ return (
     );
 }
 
-export default Collapse;
+export default CollapseDesc;
 

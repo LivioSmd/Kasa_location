@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import  "react-responsive-carousel/lib/styles/carousel.min.css" ;
 import {  Carousel  }  from  'react-responsive-carousel' ;
 import StarsRate from "../../components/StarsRate/StarsRate";
-import Collapse from "../../components/Collapse/Collapse";
+import CollapseDesc from "../../components/CollapseDesc/CollapseDesc";
 import CollapseEquipements from "../../components/CollapseEquipements/CollapseEquipements";
 
 function Affiche({ logement }) {
@@ -35,7 +35,7 @@ function Affiche({ logement }) {
                     <StarsRate rate={logement.rating} />
                 </div>
             <div>
-                <Collapse desc={logement.description} />
+                <CollapseDesc desc={logement.description} />
                 <CollapseEquipements equip={logement.equipments} />
             </div>
         </div>
