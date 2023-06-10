@@ -4,9 +4,9 @@ import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import  "react-responsive-carousel/lib/styles/carousel.min.css" ;
 import {  Carousel  }  from  'react-responsive-carousel' ;
+import StarsRate from "../../components/StarsRate/StarsRate";
 
 function Affiche({ logement }) {
-
   return <>
         <div className="container-carousel">
             <Carousel className="Carousel" infiniteLoop showIndicators={false}>
@@ -30,7 +30,7 @@ function Affiche({ logement }) {
                         return <h5 key={index}>{tags}</h5>
                     })}
                 </div>
-                <p>{logement.rating}</p>
+                <StarsRate rate={logement.rating} />
             </div>
             <h2>{logement.description}</h2>
             <p>{logement.equipments}</p>
