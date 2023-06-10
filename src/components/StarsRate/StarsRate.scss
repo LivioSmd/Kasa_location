@@ -1,2 +1,26 @@
-@import '../../Styles/Accomodation.scss';
-// TODO RANGER LE CODE
+.div-stars {
+    display: flex;
+    gap: 15.25px;
+}
+
+.red-star {
+    height: 24px;
+    width: 24px;
+    color:#FF6060;
+}
+
+.red-star path {
+    height: 24px;
+    width: 24px;
+}
+
+.gray-star {
+    color:#E3E3E3;
+    height: 24px;
+    width: 24px;
+}
+
+.gray-star path {
+    height: 24px;
+    width: 24px;
+}

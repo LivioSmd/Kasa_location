@@ -15,7 +15,7 @@ const StarsRate = ({rate}) => {
     }, [rate])
 
     return (
-        <div>
+        <div className='div-stars'>
             <FontAwesomeIcon icon={faStar} className="stars gray-star" />
             <FontAwesomeIcon icon={faStar} className="stars gray-star" />
             <FontAwesomeIcon icon={faStar} className="stars gray-star" />
