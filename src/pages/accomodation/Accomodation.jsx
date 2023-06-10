@@ -13,7 +13,6 @@ function Affiche({ logement }) {
                 {logement.pictures.map((img, index) => {
                     return <img src={img} className="img-carousel" key={index} alt="slider du logement disponible" />
                 })}
-
             </Carousel>
         </div>
         <div className="infos-container">
@@ -24,9 +23,15 @@ function Affiche({ logement }) {
                     <img src={logement.host.picture} alt={logement.host.name}/>
                 </div>
             </div>
-            <p>{logement.location}</p>
-            <p>{logement.tags}</p>
-            <p>{logement.rating}</p>
+            <h4 className="log-location">{logement.location}</h4>
+            <div className="tags-rating"> 
+                <div className="tags">
+                    {logement.tags.map((tags, index) => {
+                        return <h5 key={index}>{tags}</h5>
+                    })}
+                </div>
+                <p>{logement.rating}</p>
+            </div>
             <h2>{logement.description}</h2>
             <p>{logement.equipments}</p>
         </div>
