@@ -9,11 +9,11 @@ function CollapseEquipements({equip}) {
     const { getCollapseProps, getToggleProps} = useCollapse();
 return (
     <div className="collapsible">
-        <div className="header-collapse" {...getToggleProps()}>
+        <div className="header-collapse">
             <h4 className="title-collapse">Équipements</h4>
-            <FontAwesomeIcon icon={faChevronUp} id='icon-collapse'/>
+            <FontAwesomeIcon icon={faChevronUp} id='icon-collapse' {...getToggleProps()}/>
         </div>
-        <div {...getCollapseProps()}>
+        <div className='collaspe-content' {...getCollapseProps()}>
             <div className="content">
             {equip.map((datas) => {
                 return <p>{datas}</p>})}

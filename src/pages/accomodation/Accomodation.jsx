@@ -35,7 +35,7 @@ function Affiche({ logement }) {
                     <StarsRate rate={logement.rating} />
                 </div>
             <div className="collapse-desc-equip">
-                <CollapseDesc desc={logement.description} />
+                <CollapseDesc title='Description' desc={logement.description} />
                 <CollapseEquipements equip={logement.equipments} />
             </div>
         </div>

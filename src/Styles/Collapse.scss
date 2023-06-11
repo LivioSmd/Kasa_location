@@ -2,7 +2,7 @@
     background-color: #FF6060;
     border-radius: 10px;
     height: 52px;
-    width: 582px;
+    width: 100%;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -26,15 +26,23 @@
     background: #F6F6F6;
 }
 
-#icon-collapse {
+.header-collapse .svg-inline--fa {
     font-size: 24px;
     position: relative;
     left: 537px;
     color: #FFFFFF;
-    transition-duration: 0.4s;
+    transition-duration: 239ms;
     transition-property: transform;
 }
 
-#icon-collapse:hover {
+.header-collapse .svg-inline--fa:active {
     transform: rotate(180deg);
+}
+
+.collapsible-content {
+    transition: height 2s;
+}
+  
+.collapsible {
+    width: 582px;
 }
