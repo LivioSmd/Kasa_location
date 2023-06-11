@@ -1,0 +1,40 @@
+.header-collapse {
+    background-color: #FF6060;
+    border-radius: 10px;
+    height: 52px;
+    width: 582px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.title-collapse {
+    position: unset;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 0px;
+    margin: 0px;
+    width: 0;
+}
+
+.content {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #FF6060;
+    width: 552px;
+    padding : 20px 20px 20px 20px;
+    background: #F6F6F6;
+}
+
+#icon-collapse {
+    font-size: 24px;
+    position: relative;
+    left: 537px;
+    color: #FFFFFF;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+#icon-collapse:hover {
+    transform: rotate(180deg);
+}
