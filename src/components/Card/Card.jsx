@@ -1,6 +1,6 @@
 import React from 'react';
 import logements from '../../datas/Logements/logements.json'
-import '../../Styles/Card.scss'
+import './Card.scss'
 import '../../Styles/App.scss'
 import { useNavigate } from "react-router-dom";
 

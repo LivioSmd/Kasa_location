@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Styles/Home.scss";
+import "./Home.scss";
 import Banner1 from "../../components/Banner1/Banner1";
 import Card from "../../components/Card/Card";
 

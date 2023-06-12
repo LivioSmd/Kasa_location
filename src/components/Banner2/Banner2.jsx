@@ -1,6 +1,6 @@
 import React from 'react';
 import Paysage2 from './Paysage2.png'
-import '../../Styles/Banner1.scss'
+import '../Banner1/Banner1.scss'
 
 const Banner2 = () => {
     return (

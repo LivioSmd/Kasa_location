@@ -1,6 +1,6 @@
 import React from 'react';
 import Paysage1 from './Paysage1.png'
-import '../../Styles/Banner1.scss'
+import './Banner1.scss'
 import '../../Styles/App.scss'
 
 const Banner1 = () => {

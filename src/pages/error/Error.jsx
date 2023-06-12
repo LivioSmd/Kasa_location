@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Styles/Error.scss";
+import "./Error.scss";
 
 function Error() {
     return <div className="pageError">
