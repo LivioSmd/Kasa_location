@@ -2,20 +2,15 @@ import "../../Styles/Accomodation.scss";
 import logements from "../../datas/Logements/logements.json";
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-import  "react-responsive-carousel/lib/styles/carousel.min.css" ;
-import {  Carousel  }  from  'react-responsive-carousel' ;
 import StarsRate from "../../components/StarsRate/StarsRate";
 import CollapseDesc from "../../components/CollapseDesc/CollapseDesc";
 import CollapseEquipements from "../../components/CollapseEquipements/CollapseEquipements";
+import Carousel from "../../components/Carousel/Carousel"
 
 function Affiche({ logement }) {
   return <>
         <div className="container-carousel">
-            <Carousel className="Carousel" infiniteLoop showIndicators={false}>
-                {logement.pictures.map((img, index) => {
-                    return <img src={img} className="img-carousel" key={index} alt="slider du logement disponible" />
-                })}
-            </Carousel>
+            <Carousel pictures={logement.pictures}/>
         </div>
         <div className="infos-container">
             <div className="titl-name-img">

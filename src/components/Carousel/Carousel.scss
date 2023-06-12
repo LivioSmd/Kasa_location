@@ -1,0 +1,44 @@
+.div-Carousel{
+    height: 415px;
+    position: relative;
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-Carousel {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+
+span {
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.leftArrow {
+    font-size: 79px;
+    left: 23px;
+    text-align: right;
+}
+
+.rightArrow {
+    right: 23px;
+    text-align: right;
+    font-size: 79px;
+}
+
+.number {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+

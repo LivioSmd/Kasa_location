@@ -6,36 +6,9 @@ body  {
 
 .container-carousel {
     display: flex;
-    justify-content: center;
-}
-
-.Carousel {
-    height: 415px;
-    width: 1240px;
-}
-
-.img-carousel {
-    height: 415px;
-    width: 1240px;
-    border-radius: 25px;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-
-.carousel .thumb {
-    display: none !important;
-}
-
-.carousel .carousel-status {
-    bottom: 0 !important;
-    top: auto !important;
-    right: 604px !important;
-    font-family: Montserrat;
-    font-size: 18px !important;
-}
-
 
 .infos-container {
     margin: auto;
