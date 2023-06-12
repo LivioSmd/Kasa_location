@@ -16,7 +16,10 @@ const Card = () => {
                     return (
                         <div onClick={ () => navigate("accomodation/" + logements.id)} className='card' key={logements.id}>
                             <h4>{logements.title}</h4>
-                            <img className='img-card' src={logements.cover} alt="logement disponible" />
+                            <div className='img-container'>
+                                <div className='img-overlay'></div>
+                                <img className='img-card' src={logements.cover} alt="logement disponible" />
+                            </div>
                         </div>
                     )
                 })

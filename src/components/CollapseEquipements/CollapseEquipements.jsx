@@ -14,10 +14,11 @@ return (
             <FontAwesomeIcon icon={faChevronUp} id='icon-collapse' {...getToggleProps()}/>
         </div>
         <div className='collaspe-content' {...getCollapseProps()}>
-            <div className="content">
-            {equip.map((datas) => {
-                return <p>{datas}</p>})}
-            </div>
+            <ul className="content">
+                {equip.map((datas) => {
+                    return <li>{datas}</li>;
+                })}
+            </ul>
         </div>
     </div>
     );

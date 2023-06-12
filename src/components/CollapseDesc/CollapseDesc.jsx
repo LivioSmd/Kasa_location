@@ -14,7 +14,7 @@ return (
         </div>
         <div {...getCollapseProps()}>
             <div className="content">
-                {desc}
+                <p className="p-desc">{desc}</p>
             </div>
         </div>
     </div>
