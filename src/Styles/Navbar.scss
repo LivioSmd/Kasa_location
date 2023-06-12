@@ -1,11 +1,17 @@
-.navLink {
+
+ul {
+    display: flex;
+    gap: 57px;
+    list-style: none;
+}
+
+ul li a{
     font-family: Montserrat;
     font-size: 24px;
     color: red;
-    text-decoration:none;
+    text-decoration: none;
 }
-
-nav {
-    display: flex;
-    gap: 57px;
+  
+.active{
+    text-decoration: underline;
 }
