@@ -1,5 +1,11 @@
 .div-banner {
     margin-bottom: 38px;
+
+    @media only screen and (max-width: 380px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .all-collapseAbout {
@@ -8,14 +14,28 @@
     gap: 30px;
     width: 1023px;
     margin-bottom: 38px;
+
+    @media only screen and (max-width: 380px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
 }
 
 .all-collapseAbout .div-icon {
     left: 960px;
+
+    @media only screen and (max-width: 380px) {
+        padding-right: 5%;
+    }
 }
 
 .all-collapseAbout p {
     padding: 20px;
+
+    @media only screen and (max-width: 380px) {
+        padding: 10px;
+    }
 }
 
 .all-collapseAbout .collapseBody {
@@ -30,16 +50,19 @@
  
 .all-collapseAbout div {
     width: 1023px;
+
+    @media only screen and (max-width: 380px) {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        position: unset;
+    }
+
 }
 
 .all-collapseAbout .svg-inline--fa {
     left: 960px;
 }
 
-
-
-/*[id="react-collapsed-panel-:r0:"] {
-    
-    transition: height 10s !important;
-}*/
   

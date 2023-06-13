@@ -3,4 +3,19 @@
     align-items: center;
     justify-content: space-between;
     margin: 2% 4% 3% 4%;
+    @media only screen and (max-width: 380px) {
+        margin: 5% 5% 5% 5%;
+    }
+}
+
+.headerNav img {
+    @media only screen and (max-width: 380px) {
+        width: 40%;
+    }
+}
+
+.headerNav Nav {
+    @media only screen and (max-width: 380px) {
+        width: 44%;
+    }
 }

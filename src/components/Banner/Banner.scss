@@ -6,12 +6,20 @@
     mix-blend-mode: darken;
     background-color: black;
     filter: brightness(65%);
+    
+    @media only screen and (max-width: 380px) {
+        border-radius: 10px;
+    }
 }
 
 .div-img-banner1 {
     display: flex;
     width: 1296px;
     justify-content: center;
+
+    @media only screen and (max-width: 380px) {
+        width: 90%;
+    }
 }
 
 h1{

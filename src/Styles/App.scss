@@ -12,6 +12,9 @@ h1 {
     font-family: $textFamily;
     font-size: 48px;
     font-weight: $weightFamily ;
+    @media only screen and (max-width: 380px) {
+        font-size: 24px;
+    }
 }
 
 h2 {
@@ -19,6 +22,9 @@ h2 {
     font-size: 36px;
     font-weight: $weightFamily ;
     color: $textColor;
+    @media only screen and (max-width: 380px) {
+        font-size: 18px;
+    }
 }
 
 h3 {
@@ -26,6 +32,9 @@ h3 {
     font-size: 24px;
     font-weight: $weightFamily ;
     color: $textColor;
+    @media only screen and (max-width: 380px) {
+        font-size: 14px;
+    }
 }
 
 h4 {
@@ -33,6 +42,9 @@ h4 {
     font-size: 18px;
     font-weight: $weightFamily ;
     color: $textColor;
+    @media only screen and (max-width: 380px) {
+        font-size: 12px;
+    }
 }
 
 h5 {
@@ -40,4 +52,7 @@ h5 {
     font-size: 14px;
     font-weight: $weightFamily ;
     color: $textColor;
+    @media only screen and (max-width: 380px) {
+        font-size: 10px;
+    }
 }
