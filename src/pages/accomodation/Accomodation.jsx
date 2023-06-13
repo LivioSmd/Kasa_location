@@ -3,9 +3,9 @@ import logements from "../../datas/Logements/logements.json";
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import StarsRate from "../../components/StarsRate/StarsRate";
-import CollapseDesc from "../../components/CollapseDesc/CollapseDesc";
-import CollapseEquipements from "../../components/CollapseEquipements/CollapseEquipements";
-import Carousel from "../../components/Carousel/Carousel"
+import Carousel from "../../components/Carousel/Carousel";
+import Collapse from "../../components/Collapse/Collapse";
+import CollapseForEquipements from "../../components/Collapse/CollapseForEquipements";
 
 function Affiche({ logement }) {
   return <>
@@ -30,8 +30,8 @@ function Affiche({ logement }) {
                     <StarsRate rate={logement.rating} />
                 </div>
             <div className="collapse-desc-equip">
-                <CollapseDesc title='Description' desc={logement.description} />
-                <CollapseEquipements equip={logement.equipments} />
+                <Collapse name='Description'>{logement.description}</Collapse>
+                <CollapseForEquipements name='Équipements'>{logement.equipments}</CollapseForEquipements >
             </div>
         </div>
     </>

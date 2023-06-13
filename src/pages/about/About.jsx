@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 import Banner2 from "../../components/Banner2/Banner2";
-import CollapseDesc from "../../components/CollapseDesc/CollapseDesc";
+import Collapse from "../../components/Collapse/Collapse";
 
 const fiabilite = "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
 const RespectService = "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
@@ -15,10 +15,10 @@ function About() {
                 <Banner2 /> 
             </div>
             <div className="all-collapseAbout">
-                <CollapseDesc title='Fiabilité' desc={fiabilite} />
-                <CollapseDesc title='Respect' desc={RespectService} />
-                <CollapseDesc title='Service' desc={RespectService} />
-                <CollapseDesc title='Securité' desc={Securite} />
+                <Collapse name='Fiabilité'>{fiabilite}</Collapse>
+                <Collapse name='Respect'>{RespectService}</Collapse>
+                <Collapse name='Service'>{RespectService}</Collapse>
+                <Collapse name='Securité'>{Securite}</Collapse>
             </div>
         </div>
     )
