@@ -1,4 +1,4 @@
-
+$primary-color : #FF6060;
 
 body  {
     width: 1440px;
@@ -42,7 +42,7 @@ body  {
     padding-top: 0;
     margin: 0;
     width: 77px;
-    color: #FF6060;
+    color: $primary-color;
     display: flex;
     align-items: center;
     text-align: end;
@@ -53,7 +53,7 @@ body  {
     padding-top: 0;
     margin: 0;
     width: auto;
-    color: #FF6060;
+    color: $primary-color;
 }
 
 .tags-rating{
@@ -72,7 +72,7 @@ body  {
     height: 25px;
     width: 145px;
     border-radius: 10px;
-    background: #FF6060;
+    background: $primary-color;
     color: #FFFF;
     display: flex;
     justify-content: center;

@@ -1,3 +1,5 @@
+$white : #FFFFFF;
+
 .div-Carousel{
     height: 415px;
     position: relative;
@@ -14,7 +16,7 @@
 }
 
 span {
-    color: #FFFFFF;
+    color: $white;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -34,7 +36,7 @@ span {
 }
 
 .number {
-    color: #FFFFFF;
+    color: $white;
     position: absolute;
     bottom: 25px;
     left: 50%;

@@ -1,26 +1,28 @@
+$size-pixel : 24px;
+
 .div-stars {
     display: flex;
     gap: 15.25px;
 }
 
 .red-star {
-    height: 24px;
-    width: 24px;
+    height: $size-pixel;
+    width: $size-pixel;
     color:#FF6060;
 }
 
 .red-star path {
-    height: 24px;
-    width: 24px;
+    height: $size-pixel;
+    width: $size-pixel;
 }
 
 .gray-star {
     color:#E3E3E3;
-    height: 24px;
-    width: 24px;
+    height: $size-pixel;
+    width: $size-pixel;
 }
 
 .gray-star path {
-    height: 24px;
-    width: 24px;
+    height: $size-pixel;
+    width: $size-pixel;
 }

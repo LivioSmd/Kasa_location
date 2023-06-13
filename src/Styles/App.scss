@@ -1,5 +1,6 @@
 $textColor: #FF6060;
-$textFamily: Montserrat;
+$textFamily: 'Montserrat';
+$weightFamily : 500;
 
 
 * {
@@ -10,33 +11,33 @@ $textFamily: Montserrat;
 h1 {
     font-family: $textFamily;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: $weightFamily ;
 }
 
 h2 {
     font-family: $textFamily;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: $weightFamily ;
     color: $textColor;
 }
 
 h3 {
     font-family: $textFamily;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: $weightFamily ;
     color: $textColor;
 }
 
 h4 {
     font-family: $textFamily;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: $weightFamily ;
     color: $textColor;
 }
 
 h5 {
     font-family: $textFamily;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: $weightFamily ;
     color: $textColor;
 }
