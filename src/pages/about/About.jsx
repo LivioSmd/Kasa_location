@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss";
-import Banner2 from "../../components/Banner2/Banner2";
+import Banner1 from "../../components/Banner/Banner";
+import Paysage2 from "../../datas/images/Paysage/Paysage2.png"
 import Collapse from "../../components/Collapse/Collapse";
 
 const fiabilite = "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
@@ -12,7 +13,7 @@ function About() {
     return (
         <div className="div-banner-collapse">
             <div className="div-banner">
-                <Banner2 /> 
+                <Banner1 paysage={Paysage2}/>
             </div>
             <div className="all-collapseAbout">
                 <Collapse name='Fiabilité'>{fiabilite}</Collapse>
