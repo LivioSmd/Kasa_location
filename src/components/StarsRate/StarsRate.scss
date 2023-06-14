@@ -3,12 +3,21 @@ $size-pixel : 24px;
 .div-stars {
     display: flex;
     gap: 15.25px;
+
+    @media only screen and (max-width: 380px){ 
+        margin: 27px 0px 22px 0px;
+    }
 }
 
 .red-star {
     height: $size-pixel;
     width: $size-pixel;
     color:#FF6060;
+
+    @media only screen and (max-width: 380px){ 
+        width: 13px;
+        height: 13px;
+    }
 }
 
 .red-star path {
@@ -20,6 +29,11 @@ $size-pixel : 24px;
     color:#E3E3E3;
     height: $size-pixel;
     width: $size-pixel;
+
+    @media only screen and (max-width: 380px){ 
+        width: 13px;
+        height: 13px;
+    }
 }
 
 .gray-star path {

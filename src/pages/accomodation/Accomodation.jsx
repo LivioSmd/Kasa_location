@@ -15,7 +15,7 @@ function Affiche({ logement }) {
         <div className="infos-container">
             <div className="titl-name-img">
                 <h2>{logement.title}</h2>
-                <div className="name-img"> 
+                <div className="name-img profile-desktop"> 
                     <h4>{logement.host.name}</h4>
                     <img src={logement.host.picture} alt={logement.host.name}/>
                 </div>
