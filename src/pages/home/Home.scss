@@ -5,3 +5,9 @@
     flex-wrap: wrap;
     align-content: space-around;
 }
+
+.home-page .imgPaysageBanner1 {
+    @media only screen and (max-width: 380px){
+        height: 111px;
+    }
+}
