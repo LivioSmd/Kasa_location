@@ -27,8 +27,14 @@ function Affiche({ logement }) {
                         return <h5 key={index}>{tags}</h5>
                     })}
                 </div>
+                <div className="stars-profile">
                     <StarsRate rate={logement.rating} />
+                    <div className="name-img profile-phone"> 
+                        <h4>{logement.host.name}</h4>
+                        <img src={logement.host.picture} alt={logement.host.name}/>
+                    </div>
                 </div>
+            </div>
             <div className="collapse-desc-equip">
                 <Collapse name='Description'>{logement.description}</Collapse>
                 <CollapseForEquipements name='Équipements'>{logement.equipments}</CollapseForEquipements >

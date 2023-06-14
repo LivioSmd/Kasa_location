@@ -111,6 +111,7 @@ body  {
 
     @media only screen and (max-width: 380px){ 
         justify-content: unset;
+        white-space: nowrap;
     }
 }
 
@@ -147,5 +148,37 @@ body  {
     @media only screen and (max-width: 380px){ 
         left: unset;
         right: 15px;
+    }
+}
+
+.profile-desktop {
+    @media only screen and (max-width: 380px){ 
+        visibility: hidden;
+        width: 0px;
+        position: absolute;
+    }
+
+    @media only screen and (min-width: 381px){ 
+        display: flex;
+    }
+}
+
+.profile-phone {
+    @media only screen and (max-width: 380px){ 
+        display: flex;
+        gap: 8%;
+    }
+
+    @media only screen and (min-width: 381px){ 
+        visibility: hidden;
+        width: 0px;
+        position: absolute;
+    }
+}
+
+.stars-profile {
+    @media only screen and (max-width: 380px){ 
+        display: flex;
+        justify-content: space-between;
     }
 }
