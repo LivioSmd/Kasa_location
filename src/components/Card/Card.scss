@@ -29,6 +29,10 @@
     height: 340px;
     border-radius: 10px;
     object-fit: cover;
+
+    @media only screen and (max-width: 380px){ 
+        width: 100%;
+    }
 }
 
 
@@ -58,5 +62,9 @@ h4 {
     height: 340px;
     border-radius: 10px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+
+    @media only screen and (max-width: 380px){ 
+        width: 100%;
+    }
 }
   
