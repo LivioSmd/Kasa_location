@@ -1,5 +1,8 @@
-h3 {
+.text-footer {
     color: #FFFF;
+    @media only screen and (max-width: 380px){ 
+        width: 26%;
+    }
 }
 
 .footerDiv {
@@ -10,9 +13,17 @@ h3 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
+    @media only screen and (max-width: 380px){ 
+        justify-content: center;
+        gap: 5%;
+    }
 }
 
 .logoFooter {
     width: 155px;
     color: #FFFFFF;
+    @media only screen and (max-width: 380px){ 
+        width: 35%;
+    }
 }
