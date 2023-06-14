@@ -6,8 +6,8 @@ const NavBar = () => {
     return (
         <nav>
             <ul>
-                <li><NavLink exact activeClassName="active" to="/">Accueil</NavLink></li>
-                <li><NavLink activeClassName="active" to="/About">A Propos</NavLink></li>
+                <li><NavLink activeclassname="active" to="/">Accueil</NavLink></li>
+                <li><NavLink activeclassname="active" to="/About">A Propos</NavLink></li>
             </ul>       
         </nav>
     );
