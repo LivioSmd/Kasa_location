@@ -1,18 +1,14 @@
 
-$cardShape : 340px;
-$space1 : 43px;
-$space2 : 56px;
-
 .card-logement { 
     display: grid;
     grid-template-columns: repeat(3, 28%);
     background-color: #F6F6F6;
     width: 90%;
     justify-content: center;
-    margin-top: $space1;
-    margin-bottom: $space2;
-    padding-top: $space2;
-    padding-bottom: $space1;
+    margin-top: 43px;
+    margin-bottom: 56px;
+    padding-top: 56px;
+    padding-bottom: 43px;
     align-items: end;
     gap: 50px;
     justify-items: center;
@@ -29,8 +25,8 @@ $space2 : 56px;
 }
 
 .img-card {
-    width: $cardShape;
-    height: $cardShape;
+    width: 340px;
+    height: 340px;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -58,8 +54,8 @@ h4 {
     position: absolute;
     top: 0;
     left: 0;
-    width: $cardShape;
-    height: $cardShape;
+    width: 340px;
+    height: 340px;
     border-radius: 10px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }

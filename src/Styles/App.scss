@@ -1,17 +1,12 @@
-$textColor: #FF6060;
-$textFamily: 'Montserrat';
-$weightFamily : 500;
-
-
 * {
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-family: $textFamily;
+    font-family: 'Montserrat';
     font-size: 48px;
-    font-weight: $weightFamily ;
+    font-weight: 500;
     @media only screen and (max-width: 380px) {
         font-size: 24px;
         top: 108px;
@@ -21,40 +16,40 @@ h1 {
 }
 
 h2 {
-    font-family: $textFamily;
+    font-family: 'Montserrat';
     font-size: 36px;
-    font-weight: $weightFamily ;
-    color: $textColor;
+    font-weight: 500;
+    color: #FF6060;
     @media only screen and (max-width: 380px) {
         font-size: 18px;
     }
 }
 
 h3 {
-    font-family: $textFamily;
+    font-family: 'Montserrat';
     font-size: 24px;
-    font-weight: $weightFamily ;
-    color: $textColor;
+    font-weight: 500;
+    color: #FF6060;
     @media only screen and (max-width: 380px) {
         font-size: 12px;
     }
 }
 
 h4 {
-    font-family: $textFamily;
+    font-family: 'Montserrat';
     font-size: 18px;
-    font-weight: $weightFamily ;
-    color: $textColor;
+    font-weight: 500;
+    color: #FF6060;
     @media only screen and (max-width: 380px) {
         font-size: 18px;
     }
 }
 
 h5 {
-    font-family: $textFamily;
+    font-family: 'Montserrat';
     font-size: 14px;
-    font-weight: $weightFamily ;
-    color: $textColor;
+    font-weight: 500;
+    color: #FF6060;
     @media only screen and (max-width: 380px) {
         font-size: 10px;
     }

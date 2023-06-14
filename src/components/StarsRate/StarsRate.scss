@@ -1,4 +1,4 @@
-$size-pixel : 24px;
+
 
 .div-stars {
     display: flex;
@@ -10,8 +10,8 @@ $size-pixel : 24px;
 }
 
 .red-star {
-    height: $size-pixel;
-    width: $size-pixel;
+    height: 24px;
+    width: 24px;
     color:#FF6060;
 
     @media only screen and (max-width: 380px){ 
@@ -21,14 +21,14 @@ $size-pixel : 24px;
 }
 
 .red-star path {
-    height: $size-pixel;
-    width: $size-pixel;
+    height: 24px;
+    width: 24px;
 }
 
 .gray-star {
     color:#E3E3E3;
-    height: $size-pixel;
-    width: $size-pixel;
+    height: 24px;
+    width: 24px;
 
     @media only screen and (max-width: 380px){ 
         width: 13px;
@@ -37,6 +37,6 @@ $size-pixel : 24px;
 }
 
 .gray-star path {
-    height: $size-pixel;
-    width: $size-pixel;
+    height: 24px;
+    width: 24px;
 }
