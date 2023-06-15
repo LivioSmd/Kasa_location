@@ -1,6 +1,6 @@
 import React from 'react';
-import './Banner.scss'
-import '../../Styles/App.scss'
+import './Banner.css'
+import '../../Styles/App.css'
 
 function Banner1 ({paysage, name}) {
     return (

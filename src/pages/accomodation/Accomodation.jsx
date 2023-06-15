@@ -1,4 +1,4 @@
-import "./Accomodation.scss";
+import "./Accomodation.css";
 import logements from "../../datas/Logements/logements.json";
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";

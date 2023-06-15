@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.scss";
+import "./Home.css";
 import Banner1 from "../../components/Banner/Banner";
 import Card from "../../components/Card/Card";
 import Paysage1 from '../../datas/images/Paysage/Paysage1.png'

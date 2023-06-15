@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import './StarsRate.scss';
+import './StarsRate.css';
 
 const StarsRate = ({rate}) => {
 

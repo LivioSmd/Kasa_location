@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.scss";
+import "./About.css";
 import Banner1 from "../../components/Banner/Banner";
 import Paysage2 from "../../datas/images/Paysage/Paysage2.png"
 import Collapse from "../../components/Collapse/Collapse";
