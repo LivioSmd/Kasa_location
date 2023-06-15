@@ -15,11 +15,11 @@ function Affiche({ logement }) {
         <div className="infos-container">
             <div className="titl-name-img">
                 <h2>{logement.title}</h2>
-                <div className="name-img profile-desktop"> 
-                    <h4>{logement.host.name}</h4>
-                    <img src={logement.host.picture} alt={logement.host.name}/>
-                </div>
             </div>
+        <div className="name-img profile-desktop"> 
+            <h4>{logement.host.name}</h4>
+            <img src={logement.host.picture} alt={logement.host.name}/>
+        </div>
             <h4 className="log-location">{logement.location}</h4>
             <div className="tags-rating"> 
                 <div className="tags">
@@ -29,16 +29,12 @@ function Affiche({ logement }) {
                 </div>
                 <div className="stars-profile">
                     <StarsRate rate={logement.rating} />
-                    <div className="name-img profile-phone"> 
-                        <h4>{logement.host.name}</h4>
-                        <img src={logement.host.picture} alt={logement.host.name}/>
-                    </div>
                 </div>
             </div>
-            <div className="collapse-desc-equip">
+        </div>
+        <div className="collapse-desc-equip">
                 <Collapse name='Description'>{logement.description}</Collapse>
                 <CollapseForEquipements name='Équipements'>{logement.equipments}</CollapseForEquipements >
-            </div>
         </div>
     </>
 }
