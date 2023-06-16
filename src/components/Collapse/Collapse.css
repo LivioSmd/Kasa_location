@@ -49,12 +49,14 @@ p {
     position: relative;
     left: 520px;
     color: #FFFFFF; 
+    height: 24px;
 
     @media only screen and (max-width: 380px) {
         font-size: 16px;
         color: white; 
         position: unset;
         margin-right: 13px;
+        height: unset;
     }
 }
 
@@ -77,6 +79,10 @@ p {
     }
 }
 
-.equipment {
-    font-weight: 400;
+.rotate{
+    transition: all 90ms linear;
+}
+
+.rotate.down{
+    transform:rotate(-180deg);
 }
