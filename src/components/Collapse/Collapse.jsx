@@ -12,7 +12,7 @@ function Collapse ({name, children}) {
     return <div className='collapse'>
         <div className='collapseHeader'>
             <h4 className='title-collapse'>{name}</h4>
-            <div onClick={() => setIsCollapseOpen(isCollapseOpen => !isCollapseOpen)}>
+            <div className='div-click' onClick={() => setIsCollapseOpen(isCollapseOpen => !isCollapseOpen)}>
                 <div className='div-icon'>
                     <div className={`fas fa-chevron-up rotate ${isDown ? 'down' : ''}`} onClick={handleClick}></div>
                 </div>

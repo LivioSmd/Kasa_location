@@ -23,8 +23,7 @@
 }
 
 .all-collapseAbout .div-icon {
-    left: 960px;
-
+    position: unset;
     @media only screen and (max-width: 380px) {
         padding-right: 5%;
     }
@@ -48,7 +47,7 @@
     align-items: center;
 }
  
-.all-collapseAbout div {
+.all-collapseAbout .collapse {
     width: 1023px;
 
     @media only screen and (max-width: 380px) {
@@ -61,8 +60,16 @@
 
 }
 
-.all-collapseAbout .svg-inline--fa {
-    left: 960px;
+.all-collapseAbout .div-click {
+    width: 24px;
+    margin-right: 25px;
+    @media only screen and (max-width: 380px) {
+        margin-right: 0px;
+    }
 }
 
-  
+.all-collapseAbout .collapseHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
